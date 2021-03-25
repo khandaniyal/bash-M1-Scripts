@@ -1,9 +1,8 @@
 #!/bin/bash
-. funcions1.sh
-. funcions2.sh
-while true; 
 
-do
+. funcions2.sh
+. funcions1.sh
+
 
 echo ""
 # Main 
@@ -11,6 +10,11 @@ echo "-----------------------------------------------------------------"
 echo "--    Benvingut al programa d’inicialització"
 echo "--    $USER "
 echo "--    13/01/2020"
+
+while true; 
+
+do
+
 echo "-----------------------------------------------------------------"
 echo "--    Menú d’opcions:"
 echo "--    1. Gestió d’usuaris i grups"
